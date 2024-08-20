@@ -14,6 +14,9 @@ def parse_teams_names(html_page):
       pattern = re.compile(r'.* stats in .* 2022')
       league_table = html_page.find_all(title=pattern)
 
+      zizizcacacacacaca
+      # je mange des pates
+
 
 def main():  # function main get the url_lec and storie in into page
       html_page = scrape_league_data(url_lec)
